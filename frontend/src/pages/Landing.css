@@ -17,11 +17,11 @@
   padding: 2.5rem 1.25rem;
 }
 
-/* *****hero section with 'get started' and 'sign up' buttons***** */
+/* *****hero section with 'sign up' and 'log in' buttons***** */
 .hero-section {
   text-align: center;
   padding: 3.75rem 1.25rem;
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background: linear-gradient(135deg, #e0e1dd 0%, #778da9 125%);
   border-radius: 12px;
   margin-bottom: 3rem;
 }
@@ -29,12 +29,12 @@
 .hero-section h1 {
   font-size: 3rem;
   margin-bottom: 0.3125em;
-  color: #1a202c;
+  color: #1b263b;
 }
 
 .hero-subtitle {
   font-size: 1.25rem;
-  color: #4a5568;
+  color: #415a77;
   max-width: 30em;
   margin: 0 auto 1.5em auto;
   line-height: 1.6;
@@ -56,21 +56,60 @@
   transition: all 0.2s ease;
 }
 
-.btn-get-started {
-  background-color: #3182ce;
+.btn-sign-up {
+  background-color: #415a77;
   color: white;
 }
 
-.btn-get-started:hover {
-  background-color: #2b6cb0;
+.btn-sign-up:hover {
+  background-color: #778da9;
 }
 
-.btn-sign-in {
+.btn-log-in {
   background-color: white;
-  color: #3182ce;
-  border: 1px solid #3182ce;
+  color: #415a77;
+  border: 1px solid #415a77;
 }
 
-.btn-sign-in:hover {
+.btn-log-in:hover {
   background-color: #ebf8ff;
+}
+
+/* *****section describing features of website***** */
+.features-section {
+  text-align: center;
+}
+
+.features-section h2 {
+  font-size: 2rem;
+  margin-bottom: 35px;
+  color: #1b263b;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.feature-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow:
+    0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border: 1px solid #e2e8f0;
+  text-align: left;
+}
+
+.feature-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  color: #1b263b;
+}
+
+.feature-card p {
+  color: #415a77;
+  line-height: 1.5;
 }

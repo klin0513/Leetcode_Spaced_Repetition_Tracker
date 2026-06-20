@@ -9,8 +9,10 @@ function App() {
       {/* navigation bar */}
       <nav
         style={{
+          position: "sticky",
+          top: "0",
           padding: "10px",
-          background: "#eee",
+          background: "#f8f9fa",
           display: "flex",
           gap: "15px",
         }}
