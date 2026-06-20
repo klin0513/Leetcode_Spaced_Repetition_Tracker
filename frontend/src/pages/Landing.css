@@ -17,7 +17,7 @@
   padding: 2.5rem 1.25rem;
 }
 
-/* *****hero section with 'sign up' and 'log in' buttons***** */
+/* *****hero section with 'get started' and 'log in' buttons***** */
 .hero-section {
   text-align: center;
   padding: 3.75rem 1.25rem;
@@ -56,12 +56,12 @@
   transition: all 0.2s ease;
 }
 
-.btn-sign-up {
+.btn-get-started {
   background-color: #415a77;
   color: white;
 }
 
-.btn-sign-up:hover {
+.btn-get-started:hover {
   background-color: #778da9;
 }
 

@@ -4,7 +4,7 @@ import "./Landing.css";
 export default function Landing() {
   return (
     <div className="landing-container">
-      {/* hero section with 'sign up' and 'log in' buttons */}
+      {/* hero section with 'get started' and 'log in' buttons */}
       <header className="hero-section">
         <h1>Master Your Coding Interview</h1>
         <p className="hero-subtitle">
@@ -12,8 +12,8 @@ export default function Landing() {
           core data structures and concepts efficiently.
         </p>
         <div className="hero-buttons">
-          <Link to="/register" className="btn btn-sign-up">
-            Sign Up
+          <Link to="/register" className="btn btn-get-started">
+            Get Started
           </Link>
           <Link to="/login" className="btn btn-log-in">
             Log In
