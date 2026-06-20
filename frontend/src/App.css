@@ -7,3 +7,32 @@
 .nav-link:hover {
   transform: scale(0.9);
 }
+
+/* *****login/signup buttons***** */
+.nav-btn {
+  padding: 0.3rem .8rem;
+  font-size: .9rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: all 0.2s ease;
+}
+
+.nav-btn-login {
+  background-color: white;
+  color: #415a77;
+  border: 1px solid #415a77;
+}
+
+.nav-btn-login:hover {
+  background-color: #ebf8ff;
+}
+
+.nav-btn-signup {
+  background-color: #415a77;
+  color: white;
+}
+
+.nav-btn-signup:hover {
+  background-color: #778da9;
+}
