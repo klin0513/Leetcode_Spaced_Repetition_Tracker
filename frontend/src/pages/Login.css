@@ -1,0 +1,126 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+
+.login-card {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-card h2 {
+  margin-bottom: 8px;
+  font-size: 1.75rem;
+  color: #0D1B2A;
+  text-align: center;
+}
+
+.login-subtitle {
+  color: #415A77;
+  font-size: 0.95rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.login-form-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  background-color: white;
+  border: 1px solid #E0E1DD;
+  border-radius: 6px;
+  padding: 0px 12px;          
+  gap: 5px;
+}
+
+.login-form-group svg {
+  color: #778DA9;
+  flex-shrink: 0;
+  height: 1em;
+  width: 1em;
+}
+
+.login-form-group input {
+  border: none;
+  border-radius: 6px;
+  padding: 10px 5px;
+  width: 100%;
+  font-size: .9rem;
+  transition: border-color 0.2s;
+}
+
+.login-form-group input:focus {
+  outline: none;
+}
+
+.login-btn-submit {
+  background-color: #415A77;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.login-btn-submit:hover {
+  background-color: #778da9;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 15px 0;
+  color: #778DA9;
+  font-size: 0.85rem;
+}
+
+.separator::before,
+.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #778DA9;
+}
+
+.separator span {
+  padding: 0px 15px;
+}
+
+.login-auth-switch {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #778DA9;
+}
+
+.login-auth-switch a {
+  color: #415A77;
+  text-decoration: none;
+  font-weight: 600;
+}

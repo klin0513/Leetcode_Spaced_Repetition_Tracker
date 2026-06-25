@@ -18,6 +18,7 @@ function App() {
           display: "flex",
         }}
       >
+        {/* left side of nav bar */}
         <div style={{ display: "flex", gap: "25px" }}>
           <Link to="/" className="nav-link">
             Home
@@ -27,6 +28,7 @@ function App() {
           </Link>
         </div>
 
+        {/* right side of nav bar */}
         <div style={{ display: "flex", gap: "15px", marginLeft: "auto" }}>
           <Link to="/login" className="nav-link nav-btn nav-btn-login">
             Log In
